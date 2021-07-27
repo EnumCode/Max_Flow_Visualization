@@ -1,5 +1,5 @@
 # Max_Flow_Visualization
-A step by step visualization of edmond-karp algorithm showing the flow in the network after each of edmond-karp's algorithm iterations until finally terminating 
+A step by step visualization of edmond-karp algorithm showing the flow in the network after each of iteration of the algorithm until finally terminating 
 upon reaching maximum flow.
 
 
@@ -32,9 +32,9 @@ f = {k:0 for k in c.keys()}
 run_ford_fulkerson(g, c, f, ns, nt)
 ```
 yields the following:
-### iteration 0
+### iteration 0 (No Flow)
 ![iteration 0](https://user-images.githubusercontent.com/42470657/127089855-de71a648-bffe-4668-a894-9aa234984df0.jpeg)
 ### iteration 1
 ![iteration 1](https://user-images.githubusercontent.com/42470657/127089854-f5cd45b1-44a1-4619-ad12-d1efe85bcd21.jpeg)
-### iteration 2
+### iteration 2 (Max Flow)
 ![iteration 2](https://user-images.githubusercontent.com/42470657/127089851-0c392be8-3ae9-4e4e-8f8f-b46b063b4c18.jpeg)
